@@ -3,6 +3,7 @@ import Addition
 import Subtraction
 import Multiplication
 import Division
+import power
 
 # This is to present a menu to the user
 print("Select operation.")
