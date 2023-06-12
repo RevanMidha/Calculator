@@ -2,7 +2,7 @@ import Addition
 import Subtraction
 import Multiplication
 import Division
-import power
+import Power
 
 # This is to present a menu to the user
 print("Select operation.")
