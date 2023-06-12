@@ -52,10 +52,10 @@ while True:
         
         # check if user wants another calculation
         # break the while loop if answer is no
-        next_calculation = input("Let's do next calculation? (yes/no): ")
+        next_calculation = input("Let's do next calculation? (y/n): ")
         print()
         
-        if next_calculation in 'yY':
+        if next_calculation in 'nN':
             print("Thank for using our calculator!\n")
             break
     else:
