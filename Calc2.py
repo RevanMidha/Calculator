@@ -35,10 +35,13 @@ while True:
             print(num1, "*", num2, "=", Multiplication.multiply(num1, num2))
 
         elif choice == '4':
-            print(num1, "/", num2, "=", Division.divide(num1, num2))
+            try:
+                print(num1, "/", num2, "=", Division.divide(num1, num2))
+            except:
+                print("Division by zero not allowed")
 
         elif choice == '5':
-            print(num1, "^", num2, "=", Power.divide(num1, num2))
+            print(num1, "^", num2, "=", Power.power(num1, num2))
         
         # check if user wants another calculation
         # break the while loop if answer is no
